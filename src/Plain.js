@@ -6,7 +6,7 @@ import {
   TouchableOpacity,
 } from 'react-native'
 
-class About extends Component {
+class Plain extends Component {
   render () {
     return (
       <View style={styles.container}>
@@ -23,7 +23,7 @@ class About extends Component {
   }
 }
 
-export default About
+export default Plain
 
 const styles = StyleSheet.create({
   container: {
